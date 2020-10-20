@@ -1,0 +1,1 @@
+{"customerId": "10", "orders": [ {"orderId": "30", "basket": [ {"productId": '1', "grossMerchandiseValueEur": 10, "productType": "beverage"}, {"productId": '2', "grossMerchandiseValueEur": 10, "productType": "hot food"}, {"productId": '3', "grossMerchandiseValueEur": 10, "productType": "cold food"}]}]}
