@@ -1,12 +1,9 @@
+A task to showcase different skills. 
+- Distributed computing (pyspark)
+- Testing (pytest)
+- result exposing on API (FastAPI)
 
 #### Setup
-Linux comes with its own distribution of mongodb.
-This is where the SparkJob writes the results. The mongodb server must be running locally before running the task.
-Run the command below in shell to start the server:
-```
-mongod
-```
-If mongod is not installed. It should be setup, but that is out of the scope for this task for now.
 
 There a single setup script in the repository. 
 The scrip will setup the environment, submit the spark job and launch the API locally.
