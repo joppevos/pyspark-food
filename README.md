@@ -1,4 +1,12 @@
-A task to showcase different skills. 
+Reads data into Spark and calculate the net merchandise value of the order(ed products).
+
+The net value is calculated as followed: 7% VAT applied to cold foods, 15% to hot foods and 9% on beverages.
+
+After transforming the data is stored in MongoDB 
+
+The output data is exposed via REST API. 
+
+THe task to showcases different skills. 
 - Distributed computing (pyspark)
 - Testing (pytest)
 - result exposing on API (FastAPI)
@@ -21,10 +29,13 @@ http://127.0.0.1:8000/spend/foo
 ----------------------------------------------------
 "Unable to find customerId: foo"
 ```
+
 #### Notes
+
 All the packages used by Spark are compiled in `packages.zip`
 To test the SparkSQL transformation there is a test to make the right assertions.
 The API is served by FastAPI for its speed and easy deployment. FastAPI also provides automatic documentation.
 
 #### Future improvements
+
 - containerize 
