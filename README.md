@@ -6,7 +6,7 @@ After transforming the data is stored in MongoDB
 
 The output data is exposed via REST API. 
 
-THe task to showcases different skills. 
+The projects showcases different skills. 
 - Distributed computing (pyspark)
 - Testing (pytest)
 - result exposing on API (FastAPI)
